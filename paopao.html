@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, My Love!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFED;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card {
+      background-color: #87CEEB;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      animation: fadeInUp 1.5s ease-out forwards;
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    .message {
+      font-size: 18px;
+      color: #fff;
+      line-height: 1.6;
+      animation: fadeIn 2.5s ease-in;
+    }
+
+    .heart {
+      font-size: 24px;
+      margin-top: 20px;
+      animation: pulse 2s infinite ease-in-out;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="message">
+      Happy birthday, my lovelove!<br><br>
+      I am glad to witness your growth, your happiness, and pain. Cheers to your 24th year, my love!<br><br>
+      I'll be patient in waiting to grow old with you hehe. For now, I'll always be with you and support your endeavors in life.<br><br>
+      I love you, my future husband! To more memories and birthdays with you. 🤍
+    </div>
+    <div class="heart">💛💙</div>
+  </div>
+</body>
+</html>
